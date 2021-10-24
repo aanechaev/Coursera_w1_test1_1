@@ -1,0 +1,6 @@
+str = int(input())
+print("   _~_    " * str)
+print("  (o o)   " * str)
+print(" /  V  \\  " * str)
+print("/(  _  )\\ " * str)
+print("  ^^ ^^   " * str)

@@ -1,0 +1,16 @@
+v = int(input())
+hr = (v // 3600) % 24
+hre = (v // 3600)
+mn = (v - hre * 3600) // 60
+sc = v % 60
+hr1 = hr // 10
+hr2 = hr % 10
+mn1 = mn // 10
+mn2 = mn % 10
+sc1 = sc // 10
+sc2 = sc % 10
+print(hr, end=':')
+print(mn1, end='')
+print(mn2, end=':')
+print(sc1, end='')
+print(sc2, end='')

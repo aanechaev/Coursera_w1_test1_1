@@ -1,0 +1,5 @@
+n = float(input())
+nc = int(n)
+ns = n - float(nc)
+nsc = int(round(ns * 100))
+print(nc, nsc)
